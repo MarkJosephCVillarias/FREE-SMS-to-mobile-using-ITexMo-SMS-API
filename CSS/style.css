@@ -1,0 +1,30 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 25px auto;
+    width: 50%;
+}
+h1{
+    background-color: lightgreen;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+label, input, textarea, button{
+    font-size: 20px;
+}
+input, textarea, button{
+    color: black;
+}
+button:hover{
+    background-color: lightgreen;
+    color:white;
+    padding: 5px;
+}
+.input-Error{
+    color:red;
+}
